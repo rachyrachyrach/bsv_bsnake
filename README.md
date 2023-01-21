@@ -8,3 +8,5 @@ Run wallet to create your own wallet.
 
 
 Will update this readme with better details 
+
+Private key is in the file for all to test. 
