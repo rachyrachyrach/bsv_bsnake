@@ -1,7 +1,7 @@
 # bsv_bsnake
 BSV B:// Snake!! ![pythonglogo](/docs/images/Python-logo-notext.svg.png)
 =================
-Put your images and other media on the BSV blockchain.
+Put your images and other media on the BSV blockchain. Thanks to [BitSV](https://github.com/AustEcon/bitsv) and [B://](https://github.com/unwriter/B)
 
 ![MollyCat](/docs/images/mollycat.gif)
 
