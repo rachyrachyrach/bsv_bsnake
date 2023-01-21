@@ -22,7 +22,7 @@ Add your txid into the block exploer.
 Select the `Decode` button to show your image.
 
 ![Image on the TestNet](/docs/images/woc_decode.jpg)
-This is the image on the TestNet BSV blockchain.
+This is the image on the TestNet BSV blockchain. [Molly Cat](https://plugins-test.whatsonchain.com/api/plugin/main/9cd2e294b71e2c2b220dbe6f6dd4026fe5c97f6392d85ef5813a3f66dc672623/0) link to WOC TestNet.
 
 Run `bitcoinsv_wallet.py` to create your own wallet. 
 
