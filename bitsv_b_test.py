@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from bitsv import Key, PrivateKey
-#from whatsonchain.api import Whatsonchain
 
 # Small Molly https://bico.media/fa30c0e1384fc78204d259c0957676c403ea73f04777bc54a9dc7e2f3af70d70
 # Large Molly https://bico.media/db8063c6c806ec1a2ddcc1005f4b9dbcef110c3c83c3cb28abf87ad0fc46b812
@@ -16,7 +15,12 @@ from bitsv import Key, PrivateKey
 #B Crap example
 #OP_RETURN 19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut  <html><body>hello world</body></html>  text/html  UTF-8  hello.html
 
-my_key = Key.from_hex('1965714ec753091ec034bc44e6cb0e6adbe453ee6893a0f8ffb13924705f9377', network='main')
+#Wallet on Testnet. Wallet address: n2Ff2TRZqypeeTyHdajfcfsidVDt1nmC2K
+my_key = Key.from_hex('e80e48bc6eb32dc0f323f69a14f82bd1b32cbaed8308284e9d3b58cdb5d9dcf2', network='test')
+
+#Wallet on Mainnet. Wallet address: 12uemtEkNkTpX3yQttd7P8p2fP8Giy2qSe
+#Wallet private key Hex: 1965714ec753091ec034bc44e6cb0e6adbe453ee6893a0f8ffb13924705f9377
+#my_key = Key.from_hex('1965714ec753091ec034bc44e6cb0e6adbe453ee6893a0f8ffb13924705f9377', network='main')
 
 with open("docs/images/mollycat-lg.gif", "rb") as fp:
     molly_binary = fp.read()
