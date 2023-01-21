@@ -14,13 +14,15 @@ In `bitsv_b_test.py` line 19 `network='test')`
 Change `test` to `main` to put your image on the MainNet. 
 
 ![Block](/docs/images/woc_testnet_block_explorer.jpg)
+
 Add your txid into the block exploer. 
 
 ![Decode](/docs/images/woc_testnet_decode_button.jpg)
+
 Select the `Decode` button to show your image.
 
 ![Image on the TestNet](/docs/images/woc_decode.jpg)
-This is an images on the TestNet BSV blockchain.
+This is the image on the TestNet BSV blockchain.
 
 Run `bitcoinsv_wallet.py` to create your own wallet. 
 
