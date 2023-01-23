@@ -7,7 +7,13 @@ Put your images and other media on the BSV blockchain. Thanks to [BitSV](https:/
 
 Python script to run transactions using the B protocol 
 
+* You will need to install [bitsv](https://github.com/AustEcon/bitsv) python libray. 
+
 ![VSCode](/docs/images/vscode_testnet_txid.jpg)
+
+
+
+
 Run `bitsv_b_test.py` to put your image on the block chain. Copy the txid output and find it on the [Whatsonchain](https://test.whatsonchain.com/tx/9cd2e294b71e2c2b220dbe6f6dd4026fe5c97f6392d85ef5813a3f66dc672623) block explorer. 
 
 In `bitsv_b_test.py` line 19 `network='test')`
